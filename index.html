@@ -4,13 +4,26 @@
 <meta charset="utf-8">
 <title>Timer</title>
 <style>
-
+body{
+background: #FFFFFF;
+}
+@keyframes timer{
+0%{right:0vw;top:0vw}
+50%{right:50%;top:0vw}
+100%{right:100%;top:0vw}
+}
+#animation{
+  animation-name: timer;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+}
 </style>
-
+<script>
+</script>
 </head>
 
 <body>
-
+<img id="animation" src="greenscreen.png alt="timer" />
 <footer style="text-align: center;" class="scheme">
 <a href="http://validator.w3.org/check?uri=https://quartezy.github.io/timer/index.html">
 <strong> HTML </strong> Valid! </a>
