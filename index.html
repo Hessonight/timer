@@ -13,9 +13,17 @@ background: #FFFFFF;
 100%{right:400px;top:0px}
 }
 #animation{
+  position: relative;
+
   animation-name: timer;
   animation-duration: 30s;
   animation-timing-function: linear;
+  animation-play-state: running;
+
+  -webkit-animation-name: timer;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-play-state: running;
 }
 </style>
 <script>
